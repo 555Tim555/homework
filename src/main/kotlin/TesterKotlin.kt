@@ -7,7 +7,7 @@ fun main() {
     print("How many round-trip tickets:")
     var rt_ticket = scanner.nextInt()           //輸入來回票的張數
 
-    val Ticket = Train_Ticket(ticket,rt_ticket)  //建立Train_Ticket變數，並給於初始值
+    val Ticket = Train_Ticket(ticket,rt_ticket)   //建立Train_Ticket變數，並給於初始值
     Ticket.total_monly()  //呼叫改買的總金額並印出
 }
 
