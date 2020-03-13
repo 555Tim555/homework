@@ -13,7 +13,7 @@ fun main() {
 
 class Train_Ticket(var ticket : Int,var rt_ticket : Int){
     fun total_monly(){
-        println("Total tickets:$ticket")/       /印出購買的總張數
+        println("Total tickets:$ticket")/       //印出購買的總張數
         println("Round-trip:$rt_ticket")        //印出來回票張數
         println("Total:" + ((ticket-rt_ticket)*1000+(rt_ticket*2000*0.9)).toInt())  //印出總金額
     }
