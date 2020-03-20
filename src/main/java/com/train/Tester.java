@@ -18,7 +18,7 @@ public class Tester {
             System.out.println("How many round-trip tickets:");
             rTicket = scanner.nextInt();                           //輸入來回票的張數
             Ticket = new Train(ticket,rTicket);         //建立train_ticket的類別物件，並設初始值
-            Ticket.total_monly();                               //呼叫改買的總金額並印出
+            Ticket.total_monly();                               //呼叫購買的總金額並印出
 
         }
         System.out.println("End");
